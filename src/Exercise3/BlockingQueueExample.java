@@ -27,7 +27,8 @@ public class BlockingQueueExample
         }
 
         // Spawn multiple consumer threads
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 2; i++)
+        {
             new Thread(() -> {
                 try
                 {
